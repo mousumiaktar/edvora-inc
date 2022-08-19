@@ -1,12 +1,13 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import './Product.css';
 
 const Product = ({ product }) => {
   const { product_id, name, selling_price, stock } = product;
 
   return (
-    <div className='col-lg-4'>
-      <Card style={{ width: '18rem' }}>
+    <div className='col-lg-4 '>
+      <Card style={{ width: '18rem' }} className='one-product'>
         <Card.Header style={{background:'#1E41BB', color:'white'}}>{name}</Card.Header>
         <Card.Body>
           <Card.Title>selling_price: ${selling_price}</Card.Title>

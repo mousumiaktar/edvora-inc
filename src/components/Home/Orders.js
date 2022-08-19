@@ -1,10 +1,10 @@
-import React from 'react';
 import useOrders from '../hooks/useOrders';
 import Order from './Order';
 import './Orders.css'
 
 const Orders = () => {
-    const [orders] = useOrders();
+    const [orders, setOrders] = useOrders();
+
 
     return (
         <div className='full-orders'>
@@ -13,7 +13,7 @@ const Orders = () => {
 
             <div className='container orders-area'>
                 {
-                    orders.slice(0, 6).map(order => <Order
+                    orders.map(order => <Order
                     key={order.order_id}
                     order={order}
                     ></Order>)
