@@ -1,0 +1,9 @@
+.user-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: 2px solid #0399FD; 
+    border-radius:10px ;
+    padding: 5px 0 5px 0;
+}

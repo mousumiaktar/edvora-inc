@@ -1,0 +1,14 @@
+.banner-container{
+    height: 300px;
+    background-color: #13265F;
+    position: relative;
+    margin-top: 55px;
+}
+.banner-text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 350px;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.8);
+}

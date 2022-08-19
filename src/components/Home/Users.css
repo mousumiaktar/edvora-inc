@@ -1,0 +1,9 @@
+.users-area{
+    background-color: #E1E5F9;
+    padding-bottom: 50px;
+}
+.all-users{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
