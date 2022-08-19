@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AllOrders from './components/Home/AllOrders';
 import Home from './components/Home/Home';
 import Orders from './components/Home/Orders';
 import Products from './components/Home/Products';
@@ -17,6 +18,7 @@ function App() {
         <Route path="/products" element={<Products />}></Route>
         <Route path="/orders" element={<Orders />}></Route>
         <Route path="/users" element={<Users />}></Route>
+        <Route path="/allorders" element={<AllOrders />}></Route>
       </Routes>
       <Footer />
     </div>
